@@ -51,6 +51,10 @@ img {
   margin-bottom: 1.5rem;
 }
 
+.image-product-desktop {
+  display: none;
+}
+
 span {
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -124,3 +128,47 @@ del {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/* LAYOUT MOBILE */
+
+@media only screen and (min-width: 1440px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+  }
+
+  .container {
+    max-width: 1440px;
+
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+  }
+
+  .card,
+  img {
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    height: 100%;
+  }
+
+  .card {
+    display: flex;
+    border-bottom-right-radius: 0.7rem;
+  }
+
+  img {
+    border-top-right-radius: 0;
+  }
+
+  .image-product-mobile {
+    display: none;
+  }
+
+  .image-product-desktop {
+    display: block;
+  }
+}
+/* DESKTOP */
