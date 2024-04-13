@@ -121,6 +121,10 @@ del {
   margin: 1rem;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
