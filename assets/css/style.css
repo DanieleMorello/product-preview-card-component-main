@@ -134,17 +134,11 @@ del {
   body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10rem;
+    margin: 8rem 23rem;
   }
 
   .container {
     max-width: 1440px;
-
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
   }
 
   .card,
@@ -152,6 +146,7 @@ del {
     border-top-left-radius: 0.7rem;
     border-bottom-left-radius: 0.7rem;
     height: 100%;
+    width: 21rem;
   }
 
   .card {
@@ -168,7 +163,31 @@ del {
   }
 
   .image-product-desktop {
-    display: block;
+    display: flex;
+  }
+
+  .card-body {
+    background-color: var(--White);
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .btn {
+    width: 17rem;
+  }
+
+  .btn > img {
+    height: min-content;
   }
 }
 /* DESKTOP */
